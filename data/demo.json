@@ -1,0 +1,42 @@
+{
+  "publisher": {
+    "id": "habit-harbor",
+    "name": "Habit Harbor",
+    "category": "Daily habits",
+    "monthlyActiveUsers": 8200,
+    "availableImpressions": 3600,
+    "activationRate": 7.2
+  },
+  "partners": [
+    {
+      "id": "focus-fox",
+      "name": "Focus Fox",
+      "category": "Deep work",
+      "monthlyActiveUsers": 6100,
+      "availableImpressions": 2800,
+      "activationRate": 8.1,
+      "audienceOverlap": 72,
+      "placement": "Weekly progress screen"
+    },
+    {
+      "id": "meal-mosaic",
+      "name": "Meal Mosaic",
+      "category": "Meal planning",
+      "monthlyActiveUsers": 12400,
+      "availableImpressions": 4200,
+      "activationRate": 5.4,
+      "audienceOverlap": 48,
+      "placement": "Sunday planning recap"
+    },
+    {
+      "id": "pocket-pause",
+      "name": "Pocket Pause",
+      "category": "Mindfulness",
+      "monthlyActiveUsers": 4600,
+      "availableImpressions": 2100,
+      "activationRate": 9.3,
+      "audienceOverlap": 84,
+      "placement": "Post-session reflection"
+    }
+  ]
+}
