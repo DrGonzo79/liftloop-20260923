@@ -29,6 +29,8 @@ jobs:
       - run: npm run test:e2e
       - run: npm run audit:prod
       - run: npm run build
+        env:
+          PAGES_BUILD: "1"
       - uses: astral-sh/setup-uv@v6
         with:
           version: "0.8.18"
